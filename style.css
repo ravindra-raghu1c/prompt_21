@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Sour Gummy', sans-serif;
+    margin: 0;
+    background-color: #F7DCB9;
+    color: #914F1E;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #914F1E;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #DEAC80;
+  }
+  
+  .countdown {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .timer div {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .purchase-options {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+  
+  .option-card {
+    background-color: #B5C18E;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .option-card:hover {
+    transform: scale(1.05);
+    background-color: #914F1E;
+    color: #F7DCB9;
+  }
+  
+  .option-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .buy-button {
+    background-color: #DEAC80;
+    color: #914F1E;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #914F1E;
+    color: #F7DCB9;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #914F1E;
+    color: #F7DCB9;
+  }
+  
